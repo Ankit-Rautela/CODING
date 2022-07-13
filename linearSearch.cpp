@@ -1,6 +1,3 @@
-// Time Complexity - O(N)
-// Space Complexity - O(1)
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -19,7 +16,7 @@ int main()
         if(arr[i] == key)
         {
             count++;
-            cout << "Key Found at position : " << i + 1 << endl;
+            cout << "Key Found at index : " << i << endl;
         }    
     }
 
